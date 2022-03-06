@@ -1,0 +1,60 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    max-width: 144rem;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.flex-container .img-1{
+    background: url("../images/6.jpg") center center no-repeat;
+    background-size: cover;
+}
+.flex-container .img-2{
+    background: url("../images/3.jpg") center center no-repeat; 
+    background-size: cover;  
+}
+.flex-container .img-3{
+    background: url("../images/4.jpg") center center no-repeat;
+    background-size: cover;
+}
+.flex-container .img-4{
+    background: url("../images/5.jpg") center center no-repeat;
+    background-size: cover;
+}
+.image{
+    position: relative;
+    height: 43rem;
+    width: 33.5rem;
+    margin: 13rem 2rem;
+}
+.info{
+    position:absolute;
+    bottom: 2rem;
+    color: #fff;
+    left: 2.2rem;
+    font-size: 1.7rem;
+}
+.flex-container .image .info h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+@media(max-width:1200px){
+    .flex-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 4.5rem 2rem;
+    }
+    .image{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
